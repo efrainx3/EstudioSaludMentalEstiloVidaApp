@@ -14,25 +14,7 @@ import { collection, getDocs } from 'firebase/firestore'
 import type { DashboardResponse } from '@/types/dashboard'
 import type { MentalHealthRecord } from '@/types/dashboard'
 
-// const firebaseConfig = {
-//   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-//   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-//   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-//   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-//   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-//   appId: '1:300150156528:web:efff02d6f06bc28ab9e635',
-//   measurementId: 'G-N6B16FJ0HZ',
-// }
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyC-NK52A8WFBPjViR5dwVVSVIQgnXe4oZQ',
-  authDomain: 'poli-tallerunidad4.firebaseapp.com',
-  projectId: 'poli-tallerunidad4',
-  storageBucket: 'poli-tallerunidad4.firebasestorage.app',
-  messagingSenderId: '300150156528',
-  appId: '1:300150156528:web:efff02d6f06bc28ab9e635',
-  measurementId: 'G-N6B16FJ0HZ',
-}
 
 const app = initializeApp(firebaseConfig)
 // initializeApp()
